@@ -86181,6 +86181,7 @@ funkin_backend_assets_Paths.getSound = function(path,stream,soundType) {
 		stream = false;
 	}
 	path = "assets/" + ("" + path + "." + soundType);
+	stream = false;
 	if(Object.prototype.hasOwnProperty.call(funkin_backend_assets_Paths.cachedSounds.h,path)) {
 		return funkin_backend_assets_Paths.cachedSounds.h[path];
 	}
@@ -110197,7 +110198,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 475675;
+	this.version = 111595;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
