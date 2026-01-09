@@ -940,7 +940,7 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "24";
+	app.meta.h["build"] = "28";
 	app.meta.h["company"] = "com.fnf.shit";
 	app.meta.h["file"] = "ShitFNF";
 	app.meta.h["name"] = "ShitFNF";
@@ -87170,7 +87170,8 @@ funkin_game_Note.prototype = $extend(funkin_backend_FunkinSprite.prototype,{
 		}
 		if(this.isSustainNote) {
 			this.origin.set_y(this.offset.set_y(0));
-			this.set_angle(scrollDir + (strum.downScroll ? 180 : 0));
+			this.set_angle(scrollDir);
+			this.set_flipY(strum.downScroll);
 		}
 	}
 	,draw: function() {
@@ -87185,7 +87186,7 @@ funkin_game_Note.prototype = $extend(funkin_backend_FunkinSprite.prototype,{
 			var tmp = this.clipRect;
 			var swagRect = tmp != null ? tmp : new flixel_math_FlxRect(0,0,this.frameWidth,this.frameHeight);
 			var center = this.strum.y + 56.;
-			if(!this.flipY) {
+			if(!this.strum.downScroll) {
 				swagRect.y = (center - this.y) / this.scale.y;
 				swagRect.height = this.get_height() / this.scale.y - swagRect.y;
 			} else {
@@ -110198,7 +110199,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 111595;
+	this.version = 63238;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
