@@ -940,7 +940,7 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "35";
+	app.meta.h["build"] = "36";
 	app.meta.h["company"] = "com.fnf.shit";
 	app.meta.h["file"] = "ShitFNF";
 	app.meta.h["name"] = "ShitFNF";
@@ -3934,7 +3934,7 @@ ManifestResources.init = function(config) {
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$nokiafc22_$ttf);
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$monsterrat_$ttf);
 	var bundle;
-	var data = "{\"name\":null,\"assets\":\"aoy4:pathy36:assets%2Fdata%2Fcharacters%2Fbf.jsony4:sizei1491y4:typey4:TEXTy2:idR1y7:preloadtgoR0y37:assets%2Fdata%2Fcharacters%2Fdad.jsonR2i943R3R4R5R7R6tgoR0y36:assets%2Fdata%2Fcharacters%2Fgf.jsonR2i579R3R4R5R8R6tgoR0y42:assets%2Fdata%2Fcharacters%2Fsonicmad.jsonR2i1309R3R4R5R9R6tgoR0y35:assets%2Fdata%2Fdata-files-here.txtR2i82R3R4R5R10R6tgoR2i75864R3y4:FONTy9:classNamey29:__ASSET__assets_fonts_vcr_ttfR5y24:assets%2Ffonts%2Fvcr.ttfR6tgoR0y30:assets%2Fimages%2Falphabet.pngR2i120172R3y5:IMAGER5R15R6tgoR0y30:assets%2Fimages%2Falphabet.xmlR2i68801R3R4R5R17R6tgoR0y39:assets%2Fimages%2FbitmapFonts%2Fvcr.pngR2i9665R3R16R5R18R6tgoR0y57:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FAnimation.jsonR2i910R3R4R5R19R6tgoR0y71:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Farm%20default.jsonR2i103R3R4R5R20R6tgoR0y77:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Fbf%20body%20default.jsonR2i114R3R4R5R21R6tgoR0y74:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20Body%20Down.jsonR2i107R3R4R5R22R6tgoR0y72:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20Body%20Up.jsonR2i107R3R4R5R23R6tgoR0y75:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20defalt%20arm.jsonR2i103R3R4R5R24R6tgoR0y77:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Fbf%20face%20default.jsonR2i109R3R4R5R25R6tgoR0y76:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20Head%20defalt.jsonR2i102R3R4R5R26R6tgoR0y75:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20idle%20dance.jsonR2i2790R3R4R5R27R6tgoR0y74:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20DOWN.jsonR2i1190R3R4R5R28R6tgoR0y74:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20LEFT.jsonR2i2209R3R4R5R29R6tgoR0y75:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20RIGHT.jsonR2i1160R3R4R5R30R6tgoR0y72:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20UP.jsonR2i1457R3R4R5R31R6tgoR0y79:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20sing%20face%20ye.jsonR2i103R3R4R5R32R6tgoR0y68:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Fmic%20hand.jsonR2i103R3R4R5R33R6tgoR0y56:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2Fmetadata.jsonR2i100R3R4R5R34R6tgoR0y58:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2Fspritemap1.jsonR2i1354R3R4R5R35R6tgoR0y57:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2Fspritemap1.pngR2i55231R3R16R5R36R6tgoR0y61:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FAnimation.jsonR2i825R3R4R5R37R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2FDad%20Chest.jsonR2i103R3R4R5R38R6tgoR0y82:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2FDad%20default%20head.jsonR2i278R3R4R5R39R6tgoR0y85:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fdad%20mic%20idle%20hand.jsonR2i103R3R4R5R40R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fdad%20wasit.jsonR2i107R3R4R5R41R6tgoR0y66:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fdown.jsonR2i1547R3R4R5R42R6tgoR0y79:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fevil%20red%20eyes.jsonR2i169R3R4R5R43R6tgoR0y66:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fidle.jsonR2i3840R3R4R5R44R6tgoR0y66:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fleft.jsonR2i1559R3R4R5R45R6tgoR0y67:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fright.jsonR2i1561R3R4R5R46R6tgoR0y64:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fup.jsonR2i1457R3R4R5R47R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_0.jsonR2i99R3R4R5R48R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_1.jsonR2i107R3R4R5R49R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_10.jsonR2i100R3R4R5R50R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_11.jsonR2i100R3R4R5R51R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_12.jsonR2i100R3R4R5R52R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_13.jsonR2i104R3R4R5R53R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_14.jsonR2i100R3R4R5R54R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_15.jsonR2i100R3R4R5R55R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_16.jsonR2i100R3R4R5R56R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_17.jsonR2i104R3R4R5R57R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_18.jsonR2i100R3R4R5R58R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_19.jsonR2i100R3R4R5R59R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_2.jsonR2i99R3R4R5R60R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_20.jsonR2i100R3R4R5R61R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_21.jsonR2i104R3R4R5R62R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_22.jsonR2i100R3R4R5R63R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_23.jsonR2i100R3R4R5R64R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_24.jsonR2i104R3R4R5R65R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_25.jsonR2i100R3R4R5R66R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_26.jsonR2i108R3R4R5R67R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_27.jsonR2i100R3R4R5R68R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_28.jsonR2i108R3R4R5R69R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_29.jsonR2i108R3R4R5R70R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_3.jsonR2i107R3R4R5R71R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_30.jsonR2i108R3R4R5R72R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_31.jsonR2i100R3R4R5R73R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_32.jsonR2i100R3R4R5R74R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_33.jsonR2i100R3R4R5R75R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_34.jsonR2i100R3R4R5R76R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_35.jsonR2i100R3R4R5R77R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_36.jsonR2i108R3R4R5R78R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_37.jsonR2i100R3R4R5R79R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_38.jsonR2i108R3R4R5R80R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_39.jsonR2i108R3R4R5R81R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_4.jsonR2i105R3R4R5R82R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_40.jsonR2i108R3R4R5R83R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_41.jsonR2i100R3R4R5R84R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_42.jsonR2i100R3R4R5R85R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_43.jsonR2i100R3R4R5R86R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_44.jsonR2i100R3R4R5R87R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_45.jsonR2i100R3R4R5R88R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_46.jsonR2i100R3R4R5R89R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_47.jsonR2i100R3R4R5R90R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_48.jsonR2i108R3R4R5R91R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_49.jsonR2i108R3R4R5R92R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_5.jsonR2i105R3R4R5R93R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_50.jsonR2i100R3R4R5R94R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_51.jsonR2i100R3R4R5R95R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_52.jsonR2i100R3R4R5R96R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_53.jsonR2i108R3R4R5R97R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_54.jsonR2i108R3R4R5R98R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_6.jsonR2i99R3R4R5R99R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_7.jsonR2i99R3R4R5R100R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_8.jsonR2i99R3R4R5R101R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_9.jsonR2i99R3R4R5R102R6tgoR0y60:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2Fmetadata.jsonR2i95R3R4R5R103R6tgoR0y62:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2Fspritemap1.jsonR2i4665R3R4R5R104R6tgoR0y61:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2Fspritemap1.pngR2i137188R3R16R5R105R6tgoR0y57:assets%2Fimages%2Fcharacters%2FGF_assets%2FAnimation.jsonR2i60789R3R4R5R106R6tgoR0y58:assets%2Fimages%2Fcharacters%2FGF_assets%2Fspritemap1.jsonR2i3677R3R4R5R107R6tgoR0y57:assets%2Fimages%2Fcharacters%2FGF_assets%2Fspritemap1.pngR2i58750R3R16R5R108R6tgoR0y34:assets%2Fimages%2Fhalloween_bg.pngR2i5482377R3R16R5R109R6tgoR0y34:assets%2Fimages%2Fhalloween_bg.xmlR2i3691R3R4R5R110R6tgoR0y31:assets%2Fimages%2FhealthBar.pngR2i429R3R16R5R111R6tgoR0y41:assets%2Fimages%2Ficons%2Ficon-bf-old.pngR2i4101R3R16R5R112R6tgoR0y43:assets%2Fimages%2Ficons%2Ficon-bf-pixel.pngR2i538R3R16R5R113R6tgoR0y37:assets%2Fimages%2Ficons%2Ficon-bf.pngR2i14607R3R16R5R114R6tgoR0y38:assets%2Fimages%2Ficons%2Ficon-dad.pngR2i12384R3R16R5R115R6tgoR0y39:assets%2Fimages%2Ficons%2Ficon-face.pngR2i3549R3R16R5R116R6tgoR0y37:assets%2Fimages%2Ficons%2Ficon-gf.pngR2i10205R3R16R5R117R6tgoR0y38:assets%2Fimages%2Ficons%2Ficon-mom.pngR2i9237R3R16R5R118R6tgoR0y42:assets%2Fimages%2Ficons%2Ficon-monster.pngR2i17792R3R16R5R119R6tgoR0y42:assets%2Fimages%2Ficons%2Ficon-parents.pngR2i15547R3R16R5R120R6tgoR0y39:assets%2Fimages%2Ficons%2Ficon-pico.pngR2i14208R3R16R5R121R6tgoR0y47:assets%2Fimages%2Ficons%2Ficon-senpai-pixel.pngR2i622R3R16R5R122R6tgoR0y47:assets%2Fimages%2Ficons%2Ficon-spirit-pixel.pngR2i509R3R16R5R123R6tgoR0y41:assets%2Fimages%2Ficons%2Ficon-spooky.pngR2i6907R3R16R5R124R6tgoR0y42:assets%2Fimages%2Ficons%2Ficon-tankman.pngR2i3493R3R16R5R125R6tgoR0y33:assets%2Fimages%2Fimages-here.txtR2i25R3R4R5R126R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Fcredits.pngR2i67411R3R16R5R127R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Fcredits.xmlR2i1356R3R4R5R128R6tgoR0y45:assets%2Fimages%2Fmenus%2Fmain%2Ffreeplay.pngR2i68922R3R16R5R129R6tgoR0y45:assets%2Fimages%2Fmenus%2Fmain%2Ffreeplay.xmlR2i1362R3R4R5R130R6tgoR0y41:assets%2Fimages%2Fmenus%2Fmain%2Fmods.pngR2i49276R3R16R5R131R6tgoR0y41:assets%2Fimages%2Fmenus%2Fmain%2Fmods.xmlR2i1714R3R4R5R132R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Foptions.pngR2i27392R3R16R5R133R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Foptions.xmlR2i1427R3R4R5R134R6tgoR0y46:assets%2Fimages%2Fmenus%2Fmain%2Fplaystate.pngR2i27142R3R16R5R135R6tgoR0y46:assets%2Fimages%2Fmenus%2Fmain%2Fplaystate.xmlR2i2493R3R4R5R136R6tgoR0y47:assets%2Fimages%2Fmenus%2Fmain%2Fstory_mode.pngR2i99201R3R16R5R137R6tgoR0y47:assets%2Fimages%2Fmenus%2Fmain%2Fstory_mode.xmlR2i1387R3R4R5R138R6tgoR0y39:assets%2Fimages%2Fmenus%2FmenuDesat.pngR2i215613R3R16R5R139R6tgoR0y48:assets%2Fimages%2Fmenus%2Foptions%2Fcheckbox.pngR2i21263R3R16R5R140R6tgoR0y48:assets%2Fimages%2Fmenus%2Foptions%2Fcheckbox.xmlR2i2313R3R4R5R141R6tgoR0y59:assets%2Fimages%2Fmenus%2Ftitle%2Fgf_title%2FAnimation.jsonR2i65520R3R4R5R142R6tgoR0y60:assets%2Fimages%2Fmenus%2Ftitle%2Fgf_title%2Fspritemap1.jsonR2i3366R3R4R5R143R6tgoR0y59:assets%2Fimages%2Fmenus%2Ftitle%2Fgf_title%2Fspritemap1.pngR2i214417R3R16R5R144R6tgoR0y42:assets%2Fimages%2Fmenus%2Ftitle%2Flogo.pngR2i174636R3R16R5R145R6tgoR0y48:assets%2Fimages%2Fmenus%2Ftitle%2FtitleEnter.pngR2i26291R3R16R5R146R6tgoR0y48:assets%2Fimages%2Fmenus%2Ftitle%2FtitleEnter.xmlR2i527R3R4R5R147R6tgoR0y42:assets%2Fimages%2Fnotes%2FNOTE_assets.jsonR2i47R3R4R5R148R6tgoR0y41:assets%2Fimages%2Fnotes%2FNOTE_assets.pngR2i715027R3R16R5R149R6tgoR0y41:assets%2Fimages%2Fnotes%2FNOTE_assets.xmlR2i12474R3R4R5R150R6tgoR0y42:assets%2Fimages%2Fphilly%2FbehindTrain.pngR2i51391R3R16R5R151R6tgoR0y35:assets%2Fimages%2Fphilly%2Fcity.pngR2i167048R3R16R5R152R6tgoR0y34:assets%2Fimages%2Fphilly%2Fsky.pngR2i438577R3R16R5R153R6tgoR0y37:assets%2Fimages%2Fphilly%2Fstreet.pngR2i146849R3R16R5R154R6tgoR0y36:assets%2Fimages%2Fphilly%2Ftrain.pngR2i186831R3R16R5R155R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin0.pngR2i30819R3R16R5R156R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin1.pngR2i30568R3R16R5R157R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin2.pngR2i31185R3R16R5R158R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin3.pngR2i30319R3R16R5R159R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin4.pngR2i31128R3R16R5R160R6tgoR0y31:assets%2Fimages%2Fstageback.pngR2i36925R3R16R5R161R6tgoR0y35:assets%2Fimages%2Fstagecurtains.pngR2i154716R3R16R5R162R6tgoR0y32:assets%2Fimages%2Fstagefront.pngR2i143142R3R16R5R163R6tgoR0y33:assets%2Fimages%2Fstage_light.pngR2i12177R3R16R5R164R6tgoR2i2040005R3y5:MUSICR5y31:assets%2Fmusic%2FfreakyMenu.oggy9:pathGroupaR166hR6tgoR0y31:assets%2Fmusic%2Fmusic-here.txtR2i89R3R4R5R168R6tgoR0y44:assets%2Fsongs%2Frandom%2Fcharts%2Fhard.jsonR2i105615R3R4R5R169R6tgoR2i9654475R3R165R5y42:assets%2Fsongs%2Frandom%2Fsound%2FInst.oggR167aR170hR6tgoR2i9983564R3R165R5y44:assets%2Fsongs%2Frandom%2Fsound%2FVoices.oggR167aR171hR6tgoR0y46:assets%2Fsongs%2FTutorial%2Fcharts%2Feasy.jsonR2i5739R3R4R5R172R6tgoR0y46:assets%2Fsongs%2FTutorial%2Fcharts%2Fhard.jsonR2i6335R3R4R5R173R6tgoR0y48:assets%2Fsongs%2FTutorial%2Fcharts%2Fnormal.jsonR2i5739R3R4R5R174R6tgoR2i1129100R3R165R5y44:assets%2Fsongs%2FTutorial%2Fsound%2FInst.oggR167aR175hR6tgoR0y49:assets%2Fsongs%2FTutorial%2Ftutorial-dialogue.txtR2i925R3R4R5R176R6tgoR0y41:assets%2Fsongs%2Fycr%2Fcharts%2Fhard.jsonR2i87469R3R4R5R177R6tgoR2i1048576R3y5:SOUNDR5y39:assets%2Fsongs%2Fycr%2Fsound%2FInst.oggR167aR179hR6tgoR2i1048576R3R178R5y41:assets%2Fsongs%2Fycr%2Fsound%2FVoices.oggR167aR180hR6tgoR2i6225R3R178R5y26:assets%2Fsounds%2Fbeep.oggR167aR181hR6tgoR2i11419R3R178R5y32:assets%2Fsounds%2FcancelMenu.oggR167aR182hR6tgoR2i31599R3R178R5y33:assets%2Fsounds%2FconfirmMenu.oggR167aR183hR6tgoR2i7942R3R178R5y30:assets%2Fsounds%2Fhitsound.oggR167aR184hR6tgoR2i4941R3R178R5y31:assets%2Fsounds%2Fmetronome.oggR167aR185hR6tgoR2i9103R3R178R5y32:assets%2Fsounds%2FscrollMenu.oggR167aR186hR6tgoR0y33:assets%2Fsounds%2Fsounds-here.txtR2i82R3R4R5R187R6tgoR2i8220R3R165R5y26:flixel%2Fsounds%2Fbeep.mp3R167aR188y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R165R5y28:flixel%2Fsounds%2Fflixel.mp3R167aR190y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i6840R3R178R5R189R167aR188R189hgoR2i33629R3R178R5R191R167aR190R191hgoR2i15744R3R11R12y35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R11R12y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i222R3R16R5R196R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i484R3R16R5R197R6tgoR0y42:flixel%2Fimages%2Ftransitions%2Fcircle.pngR2i299R3R16R5R198R6tgoR0y53:flixel%2Fimages%2Ftransitions%2Fdiagonal_gradient.pngR2i730R3R16R5R199R6tgoR0y43:flixel%2Fimages%2Ftransitions%2Fdiamond.pngR2i236R3R16R5R200R6tgoR0y42:flixel%2Fimages%2Ftransitions%2Fsquare.pngR2i209R3R16R5R201R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Fbox.pngR2i75R3R16R5R202R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fbutton.pngR2i211R3R16R5R203R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_down.pngR2i216R3R16R5R204R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_left.pngR2i222R3R16R5R205R6tgoR0y49:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_right.pngR2i238R3R16R5R206R6tgoR0y46:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_up.pngR2i227R3R16R5R207R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fbutton_thin.pngR2i118R3R16R5R208R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fbutton_toggle.pngR2i254R3R16R5R209R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fcheck_box.pngR2i101R3R16R5R210R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fcheck_mark.pngR2i97R3R16R5R211R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fchrome.pngR2i135R3R16R5R212R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fchrome_flat.pngR2i124R3R16R5R213R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_inset.pngR2i102R3R16R5R214R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_light.pngR2i118R3R16R5R215R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fdropdown_mark.pngR2i86R3R16R5R216R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Ffinger_big.pngR2i1337R3R16R5R217R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Ffinger_small.pngR2i157R3R16R5R218R6tgoR0y38:flixel%2Fflixel-ui%2Fimg%2Fhilight.pngR2i74R3R16R5R219R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Finvis.pngR2i72R3R16R5R220R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fminus_mark.pngR2i77R3R16R5R221R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fplus_mark.pngR2i83R3R16R5R222R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Fradio.pngR2i108R3R16R5R223R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fradio_dot.pngR2i81R3R16R5R224R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fswatch.pngR2i94R3R16R5R225R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Ftab.pngR2i106R3R16R5R226R6tgoR0y39:flixel%2Fflixel-ui%2Fimg%2Ftab_back.pngR2i111R3R16R5R227R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Ftooltip_arrow.pngR2i176R3R16R5R228R6tgoR0y39:flixel%2Fflixel-ui%2Fxml%2Fdefaults.xmlR2i1263R3R4R5R229R6tgoR0y53:flixel%2Fflixel-ui%2Fxml%2Fdefault_loading_screen.xmlR2i1953R3R4R5R230R6tgoR0y44:flixel%2Fflixel-ui%2Fxml%2Fdefault_popup.xmlR2i1848R3R4R5R231R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
+	var data = "{\"name\":null,\"assets\":\"aoy4:pathy36:assets%2Fdata%2Fcharacters%2Fbf.jsony4:sizei1491y4:typey4:TEXTy2:idR1y7:preloadtgoR0y37:assets%2Fdata%2Fcharacters%2Fdad.jsonR2i943R3R4R5R7R6tgoR0y36:assets%2Fdata%2Fcharacters%2Fgf.jsonR2i1886R3R4R5R8R6tgoR0y42:assets%2Fdata%2Fcharacters%2Fsonicmad.jsonR2i1309R3R4R5R9R6tgoR0y35:assets%2Fdata%2Fdata-files-here.txtR2i82R3R4R5R10R6tgoR2i75864R3y4:FONTy9:classNamey29:__ASSET__assets_fonts_vcr_ttfR5y24:assets%2Ffonts%2Fvcr.ttfR6tgoR0y30:assets%2Fimages%2Falphabet.pngR2i120172R3y5:IMAGER5R15R6tgoR0y30:assets%2Fimages%2Falphabet.xmlR2i68801R3R4R5R17R6tgoR0y39:assets%2Fimages%2FbitmapFonts%2Fvcr.pngR2i9665R3R16R5R18R6tgoR0y57:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FAnimation.jsonR2i910R3R4R5R19R6tgoR0y71:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Farm%20default.jsonR2i103R3R4R5R20R6tgoR0y77:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Fbf%20body%20default.jsonR2i114R3R4R5R21R6tgoR0y74:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20Body%20Down.jsonR2i107R3R4R5R22R6tgoR0y72:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20Body%20Up.jsonR2i107R3R4R5R23R6tgoR0y75:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20defalt%20arm.jsonR2i103R3R4R5R24R6tgoR0y77:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Fbf%20face%20default.jsonR2i109R3R4R5R25R6tgoR0y76:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20Head%20defalt.jsonR2i102R3R4R5R26R6tgoR0y75:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20idle%20dance.jsonR2i2790R3R4R5R27R6tgoR0y74:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20DOWN.jsonR2i1190R3R4R5R28R6tgoR0y74:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20LEFT.jsonR2i2209R3R4R5R29R6tgoR0y75:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20RIGHT.jsonR2i1160R3R4R5R30R6tgoR0y72:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20NOTE%20UP.jsonR2i1457R3R4R5R31R6tgoR0y79:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2FBF%20sing%20face%20ye.jsonR2i103R3R4R5R32R6tgoR0y68:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2FLIBRARY%2Fmic%20hand.jsonR2i103R3R4R5R33R6tgoR0y56:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2Fmetadata.jsonR2i100R3R4R5R34R6tgoR0y58:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2Fspritemap1.jsonR2i1354R3R4R5R35R6tgoR0y57:assets%2Fimages%2Fcharacters%2FBOYFRIEND%2Fspritemap1.pngR2i55231R3R16R5R36R6tgoR0y61:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FAnimation.jsonR2i825R3R4R5R37R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2FDad%20Chest.jsonR2i103R3R4R5R38R6tgoR0y82:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2FDad%20default%20head.jsonR2i278R3R4R5R39R6tgoR0y85:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fdad%20mic%20idle%20hand.jsonR2i103R3R4R5R40R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fdad%20wasit.jsonR2i107R3R4R5R41R6tgoR0y66:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fdown.jsonR2i1547R3R4R5R42R6tgoR0y79:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fevil%20red%20eyes.jsonR2i169R3R4R5R43R6tgoR0y66:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fidle.jsonR2i3840R3R4R5R44R6tgoR0y66:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fleft.jsonR2i1559R3R4R5R45R6tgoR0y67:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fright.jsonR2i1561R3R4R5R46R6tgoR0y64:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2Fup.jsonR2i1457R3R4R5R47R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_0.jsonR2i99R3R4R5R48R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_1.jsonR2i107R3R4R5R49R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_10.jsonR2i100R3R4R5R50R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_11.jsonR2i100R3R4R5R51R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_12.jsonR2i100R3R4R5R52R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_13.jsonR2i104R3R4R5R53R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_14.jsonR2i100R3R4R5R54R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_15.jsonR2i100R3R4R5R55R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_16.jsonR2i100R3R4R5R56R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_17.jsonR2i104R3R4R5R57R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_18.jsonR2i100R3R4R5R58R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_19.jsonR2i100R3R4R5R59R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_2.jsonR2i99R3R4R5R60R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_20.jsonR2i100R3R4R5R61R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_21.jsonR2i104R3R4R5R62R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_22.jsonR2i100R3R4R5R63R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_23.jsonR2i100R3R4R5R64R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_24.jsonR2i104R3R4R5R65R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_25.jsonR2i100R3R4R5R66R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_26.jsonR2i108R3R4R5R67R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_27.jsonR2i100R3R4R5R68R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_28.jsonR2i108R3R4R5R69R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_29.jsonR2i108R3R4R5R70R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_3.jsonR2i107R3R4R5R71R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_30.jsonR2i108R3R4R5R72R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_31.jsonR2i100R3R4R5R73R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_32.jsonR2i100R3R4R5R74R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_33.jsonR2i100R3R4R5R75R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_34.jsonR2i100R3R4R5R76R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_35.jsonR2i100R3R4R5R77R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_36.jsonR2i108R3R4R5R78R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_37.jsonR2i100R3R4R5R79R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_38.jsonR2i108R3R4R5R80R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_39.jsonR2i108R3R4R5R81R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_4.jsonR2i105R3R4R5R82R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_40.jsonR2i108R3R4R5R83R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_41.jsonR2i100R3R4R5R84R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_42.jsonR2i100R3R4R5R85R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_43.jsonR2i100R3R4R5R86R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_44.jsonR2i100R3R4R5R87R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_45.jsonR2i100R3R4R5R88R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_46.jsonR2i100R3R4R5R89R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_47.jsonR2i100R3R4R5R90R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_48.jsonR2i108R3R4R5R91R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_49.jsonR2i108R3R4R5R92R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_5.jsonR2i105R3R4R5R93R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_50.jsonR2i100R3R4R5R94R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_51.jsonR2i100R3R4R5R95R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_52.jsonR2i100R3R4R5R96R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_53.jsonR2i108R3R4R5R97R6tgoR0y73:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_54.jsonR2i108R3R4R5R98R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_6.jsonR2i99R3R4R5R99R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_7.jsonR2i99R3R4R5R100R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_8.jsonR2i99R3R4R5R101R6tgoR0y72:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2FLIBRARY%2F_bta_asi_9.jsonR2i99R3R4R5R102R6tgoR0y60:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2Fmetadata.jsonR2i95R3R4R5R103R6tgoR0y62:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2Fspritemap1.jsonR2i4665R3R4R5R104R6tgoR0y61:assets%2Fimages%2Fcharacters%2FDADDY_DEAREST%2Fspritemap1.pngR2i137188R3R16R5R105R6tgoR0y34:assets%2Fimages%2Fhalloween_bg.pngR2i5482377R3R16R5R106R6tgoR0y34:assets%2Fimages%2Fhalloween_bg.xmlR2i3691R3R4R5R107R6tgoR0y31:assets%2Fimages%2FhealthBar.pngR2i429R3R16R5R108R6tgoR0y41:assets%2Fimages%2Ficons%2Ficon-bf-old.pngR2i4101R3R16R5R109R6tgoR0y43:assets%2Fimages%2Ficons%2Ficon-bf-pixel.pngR2i538R3R16R5R110R6tgoR0y37:assets%2Fimages%2Ficons%2Ficon-bf.pngR2i14607R3R16R5R111R6tgoR0y38:assets%2Fimages%2Ficons%2Ficon-dad.pngR2i12384R3R16R5R112R6tgoR0y39:assets%2Fimages%2Ficons%2Ficon-face.pngR2i3549R3R16R5R113R6tgoR0y37:assets%2Fimages%2Ficons%2Ficon-gf.pngR2i10205R3R16R5R114R6tgoR0y38:assets%2Fimages%2Ficons%2Ficon-mom.pngR2i9237R3R16R5R115R6tgoR0y42:assets%2Fimages%2Ficons%2Ficon-monster.pngR2i17792R3R16R5R116R6tgoR0y42:assets%2Fimages%2Ficons%2Ficon-parents.pngR2i15547R3R16R5R117R6tgoR0y39:assets%2Fimages%2Ficons%2Ficon-pico.pngR2i14208R3R16R5R118R6tgoR0y47:assets%2Fimages%2Ficons%2Ficon-senpai-pixel.pngR2i622R3R16R5R119R6tgoR0y47:assets%2Fimages%2Ficons%2Ficon-spirit-pixel.pngR2i509R3R16R5R120R6tgoR0y41:assets%2Fimages%2Ficons%2Ficon-spooky.pngR2i6907R3R16R5R121R6tgoR0y42:assets%2Fimages%2Ficons%2Ficon-tankman.pngR2i3493R3R16R5R122R6tgoR0y33:assets%2Fimages%2Fimages-here.txtR2i25R3R4R5R123R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Fcredits.pngR2i67411R3R16R5R124R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Fcredits.xmlR2i1356R3R4R5R125R6tgoR0y45:assets%2Fimages%2Fmenus%2Fmain%2Ffreeplay.pngR2i68922R3R16R5R126R6tgoR0y45:assets%2Fimages%2Fmenus%2Fmain%2Ffreeplay.xmlR2i1362R3R4R5R127R6tgoR0y41:assets%2Fimages%2Fmenus%2Fmain%2Fmods.pngR2i49276R3R16R5R128R6tgoR0y41:assets%2Fimages%2Fmenus%2Fmain%2Fmods.xmlR2i1714R3R4R5R129R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Foptions.pngR2i27392R3R16R5R130R6tgoR0y44:assets%2Fimages%2Fmenus%2Fmain%2Foptions.xmlR2i1427R3R4R5R131R6tgoR0y46:assets%2Fimages%2Fmenus%2Fmain%2Fplaystate.pngR2i27142R3R16R5R132R6tgoR0y46:assets%2Fimages%2Fmenus%2Fmain%2Fplaystate.xmlR2i2493R3R4R5R133R6tgoR0y47:assets%2Fimages%2Fmenus%2Fmain%2Fstory_mode.pngR2i99201R3R16R5R134R6tgoR0y47:assets%2Fimages%2Fmenus%2Fmain%2Fstory_mode.xmlR2i1387R3R4R5R135R6tgoR0y39:assets%2Fimages%2Fmenus%2FmenuDesat.pngR2i215613R3R16R5R136R6tgoR0y48:assets%2Fimages%2Fmenus%2Foptions%2Fcheckbox.pngR2i21263R3R16R5R137R6tgoR0y48:assets%2Fimages%2Fmenus%2Foptions%2Fcheckbox.xmlR2i2313R3R4R5R138R6tgoR0y59:assets%2Fimages%2Fmenus%2Ftitle%2Fgf_title%2FAnimation.jsonR2i65520R3R4R5R139R6tgoR0y60:assets%2Fimages%2Fmenus%2Ftitle%2Fgf_title%2Fspritemap1.jsonR2i3366R3R4R5R140R6tgoR0y59:assets%2Fimages%2Fmenus%2Ftitle%2Fgf_title%2Fspritemap1.pngR2i214417R3R16R5R141R6tgoR0y42:assets%2Fimages%2Fmenus%2Ftitle%2Flogo.pngR2i174636R3R16R5R142R6tgoR0y48:assets%2Fimages%2Fmenus%2Ftitle%2FtitleEnter.pngR2i26291R3R16R5R143R6tgoR0y48:assets%2Fimages%2Fmenus%2Ftitle%2FtitleEnter.xmlR2i527R3R4R5R144R6tgoR0y42:assets%2Fimages%2Fnotes%2FNOTE_assets.jsonR2i47R3R4R5R145R6tgoR0y41:assets%2Fimages%2Fnotes%2FNOTE_assets.pngR2i715027R3R16R5R146R6tgoR0y41:assets%2Fimages%2Fnotes%2FNOTE_assets.xmlR2i12474R3R4R5R147R6tgoR0y42:assets%2Fimages%2Fphilly%2FbehindTrain.pngR2i51391R3R16R5R148R6tgoR0y35:assets%2Fimages%2Fphilly%2Fcity.pngR2i167048R3R16R5R149R6tgoR0y34:assets%2Fimages%2Fphilly%2Fsky.pngR2i438577R3R16R5R150R6tgoR0y37:assets%2Fimages%2Fphilly%2Fstreet.pngR2i146849R3R16R5R151R6tgoR0y36:assets%2Fimages%2Fphilly%2Ftrain.pngR2i186831R3R16R5R152R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin0.pngR2i30819R3R16R5R153R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin1.pngR2i30568R3R16R5R154R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin2.pngR2i31185R3R16R5R155R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin3.pngR2i30319R3R16R5R156R6tgoR0y35:assets%2Fimages%2Fphilly%2Fwin4.pngR2i31128R3R16R5R157R6tgoR0y31:assets%2Fimages%2Fstageback.pngR2i36925R3R16R5R158R6tgoR0y35:assets%2Fimages%2Fstagecurtains.pngR2i154716R3R16R5R159R6tgoR0y32:assets%2Fimages%2Fstagefront.pngR2i143142R3R16R5R160R6tgoR0y33:assets%2Fimages%2Fstage_light.pngR2i12177R3R16R5R161R6tgoR2i2040005R3y5:MUSICR5y31:assets%2Fmusic%2FfreakyMenu.oggy9:pathGroupaR163hR6tgoR0y31:assets%2Fmusic%2Fmusic-here.txtR2i89R3R4R5R165R6tgoR0y44:assets%2Fsongs%2Frandom%2Fcharts%2Fhard.jsonR2i105615R3R4R5R166R6tgoR2i9654475R3R162R5y42:assets%2Fsongs%2Frandom%2Fsound%2FInst.oggR164aR167hR6tgoR2i9983564R3R162R5y44:assets%2Fsongs%2Frandom%2Fsound%2FVoices.oggR164aR168hR6tgoR0y46:assets%2Fsongs%2FTutorial%2Fcharts%2Feasy.jsonR2i5739R3R4R5R169R6tgoR0y46:assets%2Fsongs%2FTutorial%2Fcharts%2Fhard.jsonR2i6335R3R4R5R170R6tgoR0y48:assets%2Fsongs%2FTutorial%2Fcharts%2Fnormal.jsonR2i5739R3R4R5R171R6tgoR2i1129100R3R162R5y44:assets%2Fsongs%2FTutorial%2Fsound%2FInst.oggR164aR172hR6tgoR0y49:assets%2Fsongs%2FTutorial%2Ftutorial-dialogue.txtR2i925R3R4R5R173R6tgoR0y41:assets%2Fsongs%2Fycr%2Fcharts%2Fhard.jsonR2i87469R3R4R5R174R6tgoR2i1048576R3y5:SOUNDR5y39:assets%2Fsongs%2Fycr%2Fsound%2FInst.oggR164aR176hR6tgoR2i1048576R3R175R5y41:assets%2Fsongs%2Fycr%2Fsound%2FVoices.oggR164aR177hR6tgoR2i6225R3R175R5y26:assets%2Fsounds%2Fbeep.oggR164aR178hR6tgoR2i11419R3R175R5y32:assets%2Fsounds%2FcancelMenu.oggR164aR179hR6tgoR2i31599R3R175R5y33:assets%2Fsounds%2FconfirmMenu.oggR164aR180hR6tgoR2i7942R3R175R5y30:assets%2Fsounds%2Fhitsound.oggR164aR181hR6tgoR2i4941R3R175R5y31:assets%2Fsounds%2Fmetronome.oggR164aR182hR6tgoR2i9103R3R175R5y32:assets%2Fsounds%2FscrollMenu.oggR164aR183hR6tgoR0y33:assets%2Fsounds%2Fsounds-here.txtR2i82R3R4R5R184R6tgoR2i8220R3R162R5y26:flixel%2Fsounds%2Fbeep.mp3R164aR185y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R162R5y28:flixel%2Fsounds%2Fflixel.mp3R164aR187y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i6840R3R175R5R186R164aR185R186hgoR2i33629R3R175R5R188R164aR187R188hgoR2i15744R3R11R12y35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R11R12y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i222R3R16R5R193R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i484R3R16R5R194R6tgoR0y42:flixel%2Fimages%2Ftransitions%2Fcircle.pngR2i299R3R16R5R195R6tgoR0y53:flixel%2Fimages%2Ftransitions%2Fdiagonal_gradient.pngR2i730R3R16R5R196R6tgoR0y43:flixel%2Fimages%2Ftransitions%2Fdiamond.pngR2i236R3R16R5R197R6tgoR0y42:flixel%2Fimages%2Ftransitions%2Fsquare.pngR2i209R3R16R5R198R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Fbox.pngR2i75R3R16R5R199R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fbutton.pngR2i211R3R16R5R200R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_down.pngR2i216R3R16R5R201R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_left.pngR2i222R3R16R5R202R6tgoR0y49:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_right.pngR2i238R3R16R5R203R6tgoR0y46:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_up.pngR2i227R3R16R5R204R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fbutton_thin.pngR2i118R3R16R5R205R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fbutton_toggle.pngR2i254R3R16R5R206R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fcheck_box.pngR2i101R3R16R5R207R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fcheck_mark.pngR2i97R3R16R5R208R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fchrome.pngR2i135R3R16R5R209R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fchrome_flat.pngR2i124R3R16R5R210R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_inset.pngR2i102R3R16R5R211R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_light.pngR2i118R3R16R5R212R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fdropdown_mark.pngR2i86R3R16R5R213R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Ffinger_big.pngR2i1337R3R16R5R214R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Ffinger_small.pngR2i157R3R16R5R215R6tgoR0y38:flixel%2Fflixel-ui%2Fimg%2Fhilight.pngR2i74R3R16R5R216R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Finvis.pngR2i72R3R16R5R217R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fminus_mark.pngR2i77R3R16R5R218R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fplus_mark.pngR2i83R3R16R5R219R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Fradio.pngR2i108R3R16R5R220R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fradio_dot.pngR2i81R3R16R5R221R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fswatch.pngR2i94R3R16R5R222R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Ftab.pngR2i106R3R16R5R223R6tgoR0y39:flixel%2Fflixel-ui%2Fimg%2Ftab_back.pngR2i111R3R16R5R224R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Ftooltip_arrow.pngR2i176R3R16R5R225R6tgoR0y39:flixel%2Fflixel-ui%2Fxml%2Fdefaults.xmlR2i1263R3R4R5R226R6tgoR0y53:flixel%2Fflixel-ui%2Fxml%2Fdefault_loading_screen.xmlR2i1953R3R4R5R227R6tgoR0y44:flixel%2Fflixel-ui%2Fxml%2Fdefault_popup.xmlR2i1848R3R4R5R228R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
 	var manifest = lime_utils_AssetManifest.parse(data,ManifestResources.rootPath);
 	var library = lime_utils_AssetLibrary.fromManifest(manifest);
 	lime_utils_Assets.registerLibrary("default",library);
@@ -34768,7 +34768,6 @@ var flixel_addons_display_FlxZoomCamera = function(X,Y,Width,Height,Zoom) {
 	if(Zoom == null) {
 		Zoom = 0;
 	}
-	this.zoomMargin = 0.25;
 	this.zoomSpeed = 25;
 	flixel_FlxCamera.call(this,X,Y,Width,Height,flixel_FlxCamera.defaultZoom);
 	this.targetZoom = Zoom;
@@ -34779,32 +34778,9 @@ flixel_addons_display_FlxZoomCamera.__super__ = flixel_FlxCamera;
 flixel_addons_display_FlxZoomCamera.prototype = $extend(flixel_FlxCamera.prototype,{
 	targetZoom: null
 	,zoomSpeed: null
-	,zoomMargin: null
 	,update: function(elapsed) {
 		flixel_FlxCamera.prototype.update.call(this,elapsed);
 		this.set_zoom(this.zoom + (this.targetZoom - this.zoom) / 2 * elapsed * this.zoomSpeed);
-		if(this.target != null && this.zoom != 1) {
-			this.alignCamera();
-		} else {
-			this.set_x(0);
-			this.set_y(0);
-		}
-	}
-	,alignCamera: function() {
-		var targetScreenX = this.target.x - this.scroll.x;
-		var targetScreenY = this.target.y - this.scroll.y;
-		var ratioMinX = targetScreenX / (this.width / 2) - 1 - this.zoomMargin;
-		var ratioMinY = targetScreenY / (this.height / 2) - 1 - this.zoomMargin;
-		var ratioMaxX = (-this.width + targetScreenX) / (this.width / 2) + 1 + this.zoomMargin;
-		var ratioMaxY = (-this.height + targetScreenY) / (this.height / 2) + 1 + this.zoomMargin;
-		var lowerBound = ratioMinX < -1 ? -1 : ratioMinX;
-		var lowerBound1 = ratioMaxX < 0 ? 0 : ratioMaxX;
-		var offsetX = (lowerBound > 0 ? 0 : lowerBound) + (lowerBound1 > 1 ? 1 : lowerBound1);
-		var lowerBound = ratioMinY < -1 ? -1 : ratioMinY;
-		var lowerBound1 = ratioMaxY < 0 ? 0 : ratioMaxY;
-		var offsetY = (lowerBound > 0 ? 0 : lowerBound) + (lowerBound1 > 1 ? 1 : lowerBound1);
-		this.set_x(-(this.width / 2) * offsetX * (this.zoom - flixel_FlxCamera.defaultZoom));
-		this.set_y(-(this.height / 2) * offsetY * (this.zoom - flixel_FlxCamera.defaultZoom));
 	}
 	,__class__: flixel_addons_display_FlxZoomCamera
 });
@@ -98040,21 +98016,6 @@ flixel_ui_InvisibleCircleButton.prototype = $extend(flixel_ui_FlxTypedButton_$fl
 var flixel_util_FlxArrayUtil = function() { };
 $hxClasses["flixel.util.FlxArrayUtil"] = flixel_util_FlxArrayUtil;
 flixel_util_FlxArrayUtil.__name__ = "flixel.util.FlxArrayUtil";
-flixel_util_FlxArrayUtil.flatten2DArray_Int = function(array) {
-	var result = [];
-	var _g = 0;
-	while(_g < array.length) {
-		var innerArray = array[_g];
-		++_g;
-		var _g1 = 0;
-		while(_g1 < innerArray.length) {
-			var element = innerArray[_g1];
-			++_g1;
-			result.push(element);
-		}
-	}
-	return result;
-};
 flixel_util_FlxArrayUtil.fastSplice_flixel_tweens_FlxTween = function(array,element) {
 	var index = array.indexOf(element);
 	if(index != -1) {
@@ -98072,6 +98033,21 @@ flixel_util_FlxArrayUtil.fastSplice_flixel_util_FlxTimer = function(array,elemen
 		return array;
 	}
 	return array;
+};
+flixel_util_FlxArrayUtil.flatten2DArray_Int = function(array) {
+	var result = [];
+	var _g = 0;
+	while(_g < array.length) {
+		var innerArray = array[_g];
+		++_g;
+		var _g1 = 0;
+		while(_g1 < innerArray.length) {
+			var element = innerArray[_g1];
+			++_g1;
+			result.push(element);
+		}
+	}
+	return result;
 };
 flixel_util_FlxArrayUtil.swapAndPop_fastSplice_T = function(array,index) {
 	array[index] = array[array.length - 1];
@@ -103507,7 +103483,6 @@ funkin_backend_system_Conductor.mapBPMChanges = function(song) {
 		totalSteps += deltaSteps;
 		totalPos += 60 / curBPM * 1000 / 4 * deltaSteps;
 	}
-	haxe_Log.trace("new BPM map BUDDY " + Std.string(funkin_backend_system_Conductor.timeChanges),{ fileName : "src/funkin/backend/system/Conductor.hx", lineNumber : 65, className : "funkin.backend.system.Conductor", methodName : "mapBPMChanges"});
 };
 funkin_backend_system_Conductor.set_songPosition = function(value) {
 	if(value == funkin_backend_system_Conductor.__lastPos) {
@@ -103804,6 +103779,8 @@ funkin_backend_system_InitState.prototype = $extend(flixel_addons_transition_Flx
 	,__class__: funkin_backend_system_InitState
 });
 var funkin_game_GameplayState = function() {
+	this.noteCamMovementAmountY = 20;
+	this.noteCamMovementAmountX = 20;
 	this.boyfriendCameraOffset = [0.0,0.0];
 	this.opponentCameraOffset = [0.0,0.0];
 	this.score = 0;
@@ -104208,6 +104185,7 @@ funkin_game_GameplayState.prototype = $extend(flixel_addons_transition_FlxTransi
 				strum.resetAnim = 0.15;
 				note.hit = true;
 				_gthis.dad.hitNote(note);
+				_gthis.noteCamMovement(note);
 				if(!note.isSustainNote) {
 					_gthis.killNote(note);
 				}
@@ -104357,6 +104335,7 @@ funkin_game_GameplayState.prototype = $extend(flixel_addons_transition_FlxTransi
 		this.health += healthGain;
 		if(!Judgement.misses) {
 			this.score += Judgement.score;
+			this.noteCamMovement(daN);
 		} else {
 			this.health -= healthGain;
 			this.missNote(daN);
@@ -104379,6 +104358,31 @@ funkin_game_GameplayState.prototype = $extend(flixel_addons_transition_FlxTransi
 		this.health -= 0.04;
 		this.score -= 150;
 		this.misses++;
+	}
+	,noteCamMovement: function(n,force) {
+		if(force == null) {
+			force = false;
+		}
+		if(!funkin_options_SaveData.currentSettings.noteCamMovement && !force) {
+			return;
+		}
+		var xOffset = 0;
+		var yOffset = 0;
+		switch(n.lane) {
+		case 0:
+			xOffset = -this.noteCamMovementAmountX;
+			break;
+		case 1:
+			yOffset = this.noteCamMovementAmountY;
+			break;
+		case 2:
+			yOffset = -this.noteCamMovementAmountY;
+			break;
+		case 3:
+			xOffset = this.noteCamMovementAmountX;
+			break;
+		}
+		flixel_FlxG.camera.targetOffset.set(xOffset,yOffset);
 	}
 	,missNote: function(note) {
 		this.miss(note.lane);
@@ -104424,6 +104428,8 @@ funkin_game_GameplayState.prototype = $extend(flixel_addons_transition_FlxTransi
 			return this.playerStrums;
 		}
 	}
+	,noteCamMovementAmountX: null
+	,noteCamMovementAmountY: null
 	,getDefaultStageCheck: function(song) {
 		song = song.toLowerCase();
 		switch(song) {
@@ -104698,7 +104704,7 @@ funkin_game_Song.loadFromJson = function(song,diff) {
 		diff = "hard";
 	}
 	if(song == null) {
-		song = "random";
+		song = "Tutorial";
 	}
 	var rawJson = lime_utils_Assets.getText("assets/" + ("songs/" + song + ("/charts/" + diff + ".json")));
 	while(!StringTools.endsWith(rawJson,"}")) rawJson = HxOverrides.substr(rawJson,0,rawJson.length - 1);
@@ -104935,7 +104941,9 @@ funkin_game_stage_Character.prototype = $extend(animate_FlxAnimate.prototype,{
 	}
 	,hitNote: function(note) {
 		this.playAnim(funkin_game_stage_Character.sing[note.lane % funkin_game_stage_Character.sing.length],true);
-		this.holdTimer = funkin_backend_system_Conductor.stepLength * this.json.time / 1000;
+		if(this.animExists(funkin_game_stage_Character.sing[note.lane % funkin_game_stage_Character.sing.length])) {
+			this.holdTimer = funkin_backend_system_Conductor.stepLength * this.json.time / 1000;
+		}
 	}
 	,dance: function(beat) {
 		if(beat == null) {
@@ -106366,7 +106374,6 @@ funkin_menus_charter_ChartingState.prototype = $extend(flixel_addons_ui_FlxUISta
 		if(sec == null) {
 			sec = 0;
 		}
-		haxe_Log.trace("changing section" + sec,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 747, className : "funkin.menus.charter.ChartingState", methodName : "changeSection"});
 		if(this._song.notes[sec] != null) {
 			this.curSection = sec;
 			this.updateGrid();
@@ -106427,7 +106434,7 @@ funkin_menus_charter_ChartingState.prototype = $extend(flixel_addons_ui_FlxUISta
 		if(this._song.notes[this.curSection].changeBPM && this._song.notes[this.curSection].bpm > 0) {
 			funkin_backend_system_Conductor.set_BPM(this._song.notes[this.curSection].bpm);
 			var _this = flixel_FlxG.log;
-			_this.advanced("CHANGED BPM!",_this.styles.normal,false,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 842, className : "funkin.menus.charter.ChartingState", methodName : "updateGrid"});
+			_this.advanced("CHANGED BPM!",_this.styles.normal,false,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 840, className : "funkin.menus.charter.ChartingState", methodName : "updateGrid"});
 		} else {
 			var daBPM = this._song.bpm;
 			var _g = 0;
@@ -106501,7 +106508,7 @@ funkin_menus_charter_ChartingState.prototype = $extend(flixel_addons_ui_FlxUISta
 			++_g;
 			if(i[0] == note.time && i[1] % 4 == note.lane) {
 				var _this = flixel_FlxG.log;
-				_this.advanced("FOUND EVIL NUMBER",_this.styles.normal,false,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 944, className : "funkin.menus.charter.ChartingState", methodName : "deleteNote"});
+				_this.advanced("FOUND EVIL NUMBER",_this.styles.normal,false,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 941, className : "funkin.menus.charter.ChartingState", methodName : "deleteNote"});
 				HxOverrides.remove(this._song.notes[this.curSection].sectionNotes,i);
 			}
 		}
@@ -106530,8 +106537,8 @@ funkin_menus_charter_ChartingState.prototype = $extend(flixel_addons_ui_FlxUISta
 		if(_this.keyManager.checkStatusUnsafe(17,_this.status)) {
 			this._song.notes[this.curSection].sectionNotes.push([noteStrum,(noteData + 4) % 8,noteSus]);
 		}
-		haxe_Log.trace(noteStrum,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 984, className : "funkin.menus.charter.ChartingState", methodName : "addNote"});
-		haxe_Log.trace(this.curSection,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 985, className : "funkin.menus.charter.ChartingState", methodName : "addNote"});
+		haxe_Log.trace(noteStrum,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 981, className : "funkin.menus.charter.ChartingState", methodName : "addNote"});
+		haxe_Log.trace(this.curSection,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 982, className : "funkin.menus.charter.ChartingState", methodName : "addNote"});
 		this.updateGrid();
 		this.updateNoteUI();
 		this.autosaveSong();
@@ -106544,7 +106551,7 @@ funkin_menus_charter_ChartingState.prototype = $extend(flixel_addons_ui_FlxUISta
 	}
 	,daSpacing: null
 	,loadLevel: function() {
-		haxe_Log.trace(this._song.notes,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 1006, className : "funkin.menus.charter.ChartingState", methodName : "loadLevel"});
+		haxe_Log.trace(this._song.notes,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 1003, className : "funkin.menus.charter.ChartingState", methodName : "loadLevel"});
 	}
 	,getNotes: function() {
 		var noteData = [];
@@ -106604,7 +106611,7 @@ funkin_menus_charter_ChartingState.prototype = $extend(flixel_addons_ui_FlxUISta
 		this._file.removeEventListener("ioError",$bind(this,this.onSaveError));
 		this._file = null;
 		var _this = flixel_FlxG.log;
-		_this.advanced("Successfully saved LEVEL DATA.",_this.styles.notice,false,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 1065, className : "funkin.menus.charter.ChartingState", methodName : "onSaveComplete"});
+		_this.advanced("Successfully saved LEVEL DATA.",_this.styles.notice,false,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 1062, className : "funkin.menus.charter.ChartingState", methodName : "onSaveComplete"});
 	}
 	,onSaveCancel: function(_) {
 		this._file.removeEventListener("complete",$bind(this,this.onSaveComplete));
@@ -106618,7 +106625,7 @@ funkin_menus_charter_ChartingState.prototype = $extend(flixel_addons_ui_FlxUISta
 		this._file.removeEventListener("ioError",$bind(this,this.onSaveError));
 		this._file = null;
 		var _this = flixel_FlxG.log;
-		_this.advanced("Problem saving Level data",_this.styles.error,true,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 1088, className : "funkin.menus.charter.ChartingState", methodName : "onSaveError"});
+		_this.advanced("Problem saving Level data",_this.styles.error,true,{ fileName : "src/funkin/menus/charter/ChartingState.hx", lineNumber : 1085, className : "funkin.menus.charter.ChartingState", methodName : "onSaveError"});
 	}
 	,__class__: funkin_menus_charter_ChartingState
 });
@@ -106735,6 +106742,7 @@ funkin_menus_options_Gameplay.prototype = $extend(funkin_menus_options_BaseOptio
 		funkin_menus_options_BaseOptionCat.prototype.create.call(this);
 		this.addOption("Downscroll",new funkin_options_Option("downScroll",funkin_options_OptionType.BOOL));
 		this.addOption("Middlescroll",new funkin_options_Option("middleScroll",funkin_options_OptionType.BOOL));
+		this.addOption("Note Camera Movement",new funkin_options_Option("noteCamMovement",funkin_options_OptionType.BOOL));
 	}
 	,__class__: funkin_menus_options_Gameplay
 });
@@ -107261,7 +107269,8 @@ funkin_options_Option.prototype = $extend(flixel_group_FlxTypedSpriteGroup.proto
 	}
 	,__class__: funkin_options_Option
 });
-var funkin_options_OptionSaveData = function(downScroll,middleScroll) {
+var funkin_options_OptionSaveData = function(downScroll,middleScroll,noteCamMovement) {
+	this.noteCamMovement = true;
 	this.middleScroll = false;
 	this.downScroll = false;
 	if(downScroll != null) {
@@ -107270,12 +107279,16 @@ var funkin_options_OptionSaveData = function(downScroll,middleScroll) {
 	if(middleScroll != null) {
 		this.middleScroll = middleScroll;
 	}
+	if(noteCamMovement != null) {
+		this.noteCamMovement = noteCamMovement;
+	}
 };
 $hxClasses["funkin.options.OptionSaveData"] = funkin_options_OptionSaveData;
 funkin_options_OptionSaveData.__name__ = "funkin.options.OptionSaveData";
 funkin_options_OptionSaveData.prototype = {
 	downScroll: null
 	,middleScroll: null
+	,noteCamMovement: null
 	,__class__: funkin_options_OptionSaveData
 };
 var funkin_options_SaveData = function() { };
@@ -129407,7 +129420,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 70423;
+	this.version = 215633;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
@@ -184586,8 +184599,8 @@ funkin_menus_charter_ChartingState.lastSection = 0;
 funkin_menus_ui_AlphaCharacter.alphabet = "abcdefghijklmnopqrstuvwxyz";
 funkin_menus_ui_AlphaCharacter.numbers = "1234567890";
 funkin_menus_ui_AlphaCharacter.symbols = "|~#$%()*+-:;<=>@[]^_.,'!?";
-funkin_options_SaveData.defaultSettings = new funkin_options_OptionSaveData(null,null);
-funkin_options_SaveData.currentSettings = new funkin_options_OptionSaveData(null,null);
+funkin_options_SaveData.defaultSettings = new funkin_options_OptionSaveData(null,null,null);
+funkin_options_SaveData.currentSettings = new funkin_options_OptionSaveData(null,null,null);
 haxe_Serializer.USE_CACHE = false;
 haxe_Serializer.USE_ENUM_INDEX = false;
 haxe_Serializer.BASE64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%:";
